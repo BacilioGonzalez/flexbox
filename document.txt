@@ -1,0 +1,11 @@
+Al leer los requisitos vino a mi mente una pagina simple pero con los elementos requeridos, ya que mis habilidades con html y css son pocas
+Así que comencé por agregar el header, pensando en un header clásico, con el logo y el menú de navegación de la pagina.
+Después modifique un poco la estructura sugerida colocando el tag main y aside dentro de un div para agruparlos juntos, dandoles un poco de estilo y colocar el sidebar a la derecha.
+Al footer le agregue un poco de estilo y contenido.
+Agregue un background-color para el header, sidebar y footer, siguiendo una paleta de colores.
+
+Una vez terminado esto, use los DevTool de Google Chrome para verificar la parte responsive, fue ahí donde note que en el header los elementos del menú se sobreponían en resoluciones pequeñas.
+Siguiendo las recomendaciones del curso investigue un poco mas cerca de las “Media Queries” agregando una en resoluciones de 480px (Ya que era la resolución donde comenzaban a sobreponerse) para que cambiara el flex-direction a columnas.
+También agregue un ancho mínimo en algunos elementos.
+
+Por ultimo probé con diferentes resoluciones, verificando que en dispositivos móviles se mostrara de forma correcta así como en la versión desktop.
